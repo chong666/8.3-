@@ -1,0 +1,77 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+header {
+  font-size: 0.18rem;
+  height: 0.44rem;
+  line-height: 0.44rem;
+  display: flex;
+  background: #555;
+  color: #fff;
+  position: relative; }
+  header .iconfont {
+    width: 15%;
+    text-align: center;
+    font-size: .2rem; }
+  header h4 {
+    flex: 1; }
+
+main {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  position: relative; }
+  main .zhe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .5; }
+  main .alertbox {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+    border-radius: 10px;
+    padding: .1rem; }
+    main .alertbox .box-logo {
+      text-align: center;
+      margin-top: .1rem; }
+      main .alertbox .box-logo img {
+        width: 1.34rem;
+        height: .44rem; }
+      main .alertbox .box-logo p {
+        margin-top: .1rem;
+        font-size: .14rem; }
+    main .alertbox .box-ipt li {
+      margin-top: .4rem;
+      line-height: .3rem;
+      border-bottom: 1px solid #555; }
+      main .alertbox .box-ipt li img {
+        width: 4%;
+        margin-left: .1rem; }
+      main .alertbox .box-ipt li input {
+        border: none;
+        margin-left: .1rem; }
+    main .alertbox #btn {
+      width: 100%;
+      line-height: .4rem;
+      background: tomato;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      margin-top: .5rem; }
+
+/*# sourceMappingURL=style.css.map */
